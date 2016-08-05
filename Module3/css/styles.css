@@ -1,0 +1,60 @@
+.navbar-brand{ 
+	margin: 3px auto;
+	padding-top: 2px;
+	text-align: center;
+	height: 55px;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+/* title */
+.navbar-default  {
+    background-color: #90C3D4;
+    border-color: #90C3D4; 
+}
+/*xs only*/
+@media (max-width: 767px){
+	#collapsable-nav {
+		background-color: white;
+		border-top: 2px solid black;
+	}
+	.menu-item{
+		border-bottom: 1px solid black;
+		width:90vw;
+	}
+}
+/*button*/
+.navbar-toggle {
+	background-color: #4cb5ed;
+}
+ /*food LLC*/
+ h1{
+	font-size: 1.3em;
+	color: black;
+	font-weight: bold;
+	margin-top: 12px;
+}
+#header-nav{
+	border: 2px solid black;
+}
+/*bootstrap grid system*/
+.grid{
+	background-color: #e3f15e;
+	height:3100px;
+	margin: 1px auto;
+}
+/*sushi, beef, chicken*/
+.col-xs-12 h3{
+	text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid blue;
+}
+*{
+	font-family: "Trebuchet MS", Georgia, sans-serif;
+}
